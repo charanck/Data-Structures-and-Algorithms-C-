@@ -47,6 +47,7 @@ struct Node* deleteHead(struct Node* ll ){
     free(ll);
     return temp;
 }
+
 int main()
 {
     int n;
