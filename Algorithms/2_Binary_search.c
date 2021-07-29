@@ -1,9 +1,8 @@
 #include <stdio.h>
 #define TRUE 1;
 #define FALSE 0;
-#define bool int;
 
-bool binary_search(int arr[],int size,int required) {
+int binary_search(int arr[],int size,int required) {
     int i=0,j=size-1,mid=size/2;
     int isfound = FALSE;
     while(!isfound && i<j){
